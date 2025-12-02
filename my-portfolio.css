@@ -1,0 +1,106 @@
+@media screen and (min-width:500px) {
+  .main{
+  .rotate{
+    width: 200px;
+      height: 200px;
+  }
+  h2{
+    font-size: 44px;}
+}
+.navbar {
+  button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+}
+@media screen and (max-width:499px) {
+.navbar{
+  button{
+    margin:0 0;
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}
+  .main {
+    .rotate {
+      width: 100px;
+      height: 100px;
+    }
+    h2 {
+          font-size: 24px;
+    }
+  }
+}
+body{
+  background-image: url('bg.jfif');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.hibro{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(6, 218, 255);
+  font-family: 'Vipnagorgialla', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  button{
+    background-color: rgb(159, 223, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 10px rgb(6, 218, 255);
+    &:hover{
+      background-color: rgba(0, 17, 110, 0.4);
+    }
+}}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+.main{
+  .rotate{
+    animation: rotation 6s infinite linear;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(6, 218, 255);
+  }
+  h2{
+    color: white;
+    font-family:'Vipnagorgialla',sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgb(6, 218, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+  }
+  .present{
+    display: inline-block;
+    align-items: baseline;
+  }
+}
+footer{
+  text-align: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+.notepad{
+  background-image: url('notepad.jfif');
+  background-size: cover;
+  padding: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
